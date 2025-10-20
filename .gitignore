@@ -1,0 +1,18 @@
+# Build folders
+bin/
+obj/
+
+# User specific
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.db
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
