@@ -1,0 +1,27 @@
+@model IEnumerable<AwsNotes.Models.NoteItem>
+
+<h2>Notes</h2>
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Note</th>
+      <th>S3 Key</th>
+      <th>Created (UTC)</th>
+    </tr>
+  </thead>
+  <tbody>
+  @foreach (var n in Model)
+  {
+    <tr>
+      <td>@n.Title</td>
+      <td>@n.Note</td>
+      <td>@n.S3Key</td>
+      <td>@n.CreatedUtc.ToString("u")</td>
+    </tr>
+  }
+  </tbody>
+</table>
+
+<p><a asp-action="Create">Lägg till ny</a></p>

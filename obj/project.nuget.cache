@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "EFk0ZkvD8sw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\99amiqur\\OneDrive\\Desktop\\AWS\\Note-app\\AwsNotes\\AwsNotes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\99amiqur\\.nuget\\packages\\awssdk.core\\4.0.0.26\\awssdk.core.4.0.0.26.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\awssdk.dynamodbv2\\4.0.6.1\\awssdk.dynamodbv2.4.0.6.1.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\awssdk.extensions.netcore.setup\\4.0.2.2\\awssdk.extensions.netcore.setup.4.0.2.2.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\awssdk.s3\\4.0.6.13\\awssdk.s3.4.0.6.13.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.10\\microsoft.entityframeworkcore.9.0.10.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.10\\microsoft.entityframeworkcore.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.10\\microsoft.entityframeworkcore.analyzers.9.0.10.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\9.0.10\\microsoft.entityframeworkcore.inmemory.9.0.10.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.10\\microsoft.extensions.caching.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.10\\microsoft.extensions.caching.memory.9.0.10.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.0.0\\microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.10\\microsoft.extensions.dependencyinjection.9.0.10.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.10\\microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.extensions.logging\\9.0.10\\microsoft.extensions.logging.9.0.10.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.10\\microsoft.extensions.logging.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.extensions.options\\9.0.10\\microsoft.extensions.options.9.0.10.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.10\\microsoft.extensions.primitives.9.0.10.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.10\\system.diagnostics.diagnosticsource.9.0.10.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.15\\microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.15\\microsoft.netcore.app.host.win-x64.8.0.15.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.15\\microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\99amiqur\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.15\\microsoft.windowsdesktop.app.ref.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
