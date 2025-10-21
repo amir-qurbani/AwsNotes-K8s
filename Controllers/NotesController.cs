@@ -6,11 +6,11 @@ namespace AwsNotes.Controllers
 {
     public class NotesController : Controller
     {
-        private readonly NotesDbContext _context;
+        private readonly MongoDbService _mongoService;
 
-        public NotesController(NotesDbContext context)
+        public NotesController(MongoDbService mongoService) // <-- ändrad till public
         {
-            _context = context;
+            _mongoService = mongoService;
         }
 
         [HttpGet]
@@ -20,7 +20,7 @@ namespace AwsNotes.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(NoteCreateViewModel vm)
+        public async Task<IActionResult> Create(NoteCreateViewModel vm)
         {
             if (string.IsNullOrWhiteSpace(vm.Title))
             {
@@ -34,16 +34,14 @@ namespace AwsNotes.Controllers
                 Note = vm.Note
             };
 
-            _context.Notes.Add(note);
-            _context.SaveChanges();
-
+            await _mongoService.AddNoteAsync(note);
             return RedirectToAction(nameof(List));
         }
 
         [HttpGet]
-        public IActionResult List()
+        public async Task<IActionResult> List()
         {
-            var items = _context.Notes.ToList();
+            var items = await _mongoService.GetNotesAsync();
             return View(items);
         }
     }

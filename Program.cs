@@ -1,21 +1,10 @@
 using Amazon;                 // <-- lägg till för RegionEndpoint
 using Amazon.S3;
-using Amazon.DynamoDBv2;
-using AwsNotes.Services;
 using AwsNotes.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// --- AWS-klienter (MANUELL DI, inget extra paket behövs) ---
-builder.Services.AddSingleton<IAmazonS3>(_ => new AmazonS3Client(RegionEndpoint.EUWest1));
-builder.Services.AddSingleton<IAmazonDynamoDB>(_ => new AmazonDynamoDBClient(RegionEndpoint.EUWest1));
-
-// Våra tjänster
-builder.Services.AddScoped<S3Service>();
-builder.Services.AddScoped<NotesRepository>();
-builder.Services.AddDbContext<NotesDbContext>(options =>
-    options.UseInMemoryDatabase("NotesDb"));
+builder.Services.AddSingleton<MongoDbService>();
 
 // MVC
 builder.Services.AddControllersWithViews();

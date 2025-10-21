@@ -49,3 +49,10 @@ C:\Users\99amiqur\OneDrive\Desktop\AWS\Note-app\AwsNotes\bin\Debug\net8.0\Micros
 C:\Users\99amiqur\OneDrive\Desktop\AWS\Note-app\AwsNotes\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\99amiqur\OneDrive\Desktop\AWS\Note-app\AwsNotes\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\99amiqur\OneDrive\Desktop\AWS\Note-app\AwsNotes\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\99amiqur\OneDrive\Desktop\AWS\Note-app\AwsNotes\obj\Debug\net8.0\AwsNotes.sourcelink.json
+C:\Users\99amiqur\OneDrive\Desktop\AWS\Note-app\AwsNotes\bin\Debug\net8.0\DnsClient.dll
+C:\Users\99amiqur\OneDrive\Desktop\AWS\Note-app\AwsNotes\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\99amiqur\OneDrive\Desktop\AWS\Note-app\AwsNotes\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\99amiqur\OneDrive\Desktop\AWS\Note-app\AwsNotes\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\99amiqur\OneDrive\Desktop\AWS\Note-app\AwsNotes\bin\Debug\net8.0\Snappier.dll
+C:\Users\99amiqur\OneDrive\Desktop\AWS\Note-app\AwsNotes\bin\Debug\net8.0\ZstdSharp.dll

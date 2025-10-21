@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AwsNotes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aade46fde2185c63d5351beb3bd8f46a71ff2546")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b02a85f73ef8355a30b8e7364f0da64785eb6be6")]
 [assembly: System.Reflection.AssemblyProductAttribute("AwsNotes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AwsNotes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

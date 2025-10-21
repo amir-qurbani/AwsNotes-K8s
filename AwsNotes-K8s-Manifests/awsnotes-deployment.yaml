@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: awsnotes-webapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: awsnotes-webapp
+  template:
+    metadata:
+      labels:
+        app: awsnotes-webapp
+    spec:
+      containers:
+      - name: awsnotes-webapp
+        image: amiro26/awsnote-webapp:v1.0
+        imagePullPolicy: IfNotPresent
+    # byt till din image om du har pushat
+        ports:
+        - containerPort: 8080
+        env:
+        - name: ConnectionStrings__MongoDb
+          value: "mongodb://mongodb-service:27017"
+

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: awsnotes-config
+data:
+  MongoDb__ConnectionString: "mongodb://mongodb-service:27017"
+  MongoDb__DatabaseName: "AwsNotesDb"
