@@ -33,7 +33,7 @@ spec:
       name: mongodb-data
     spec:
       accessModes: ["ReadWriteOnce"]
-      storageClassName: hostpath
+      storageClassName: ebs-sc
       resources:
         requests:
           storage: 1Gi

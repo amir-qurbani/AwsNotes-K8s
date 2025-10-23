@@ -7,7 +7,7 @@ spec:
     app: awsnotes-webapp
   ports:
   - protocol: TCP
-    port: 8080        # <-- ändra från 80 till 8080
+    port: 80       # <-- ändra från 80 till 8080
     targetPort: 8080  # <-- din app lyssnar på 8080
     nodePort: 30348   # <-- valfritt, annars genereras automatiskt
-  type: NodePort
+  type: LoadBalancer
